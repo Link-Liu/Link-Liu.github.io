@@ -4,6 +4,25 @@
   
   
   <entry>
+    <title>git</title>
+    <link href="/2024/10/30/git/"/>
+    <url>/2024/10/30/git/</url>
+    
+    <content type="html"><![CDATA[<p>Git是分布式版本控制系统</p><h1 id="初始化仓库"><a href="#初始化仓库" class="headerlink" title="初始化仓库"></a>初始化仓库</h1><figure class="highlight csharp"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><code class="hljs csharp">git <span class="hljs-keyword">init</span><br></code></pre></td></tr></table></figure><h1 id="Git添加文件需要add，commit一共两步"><a href="#Git添加文件需要add，commit一共两步" class="headerlink" title="Git添加文件需要add，commit一共两步"></a>Git添加文件需要add，commit一共两步</h1><h2 id="添加文件"><a href="#添加文件" class="headerlink" title="添加文件"></a>添加文件</h2><figure class="highlight routeros"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><code class="hljs routeros">git <span class="hljs-built_in">add</span> readme.md <span class="hljs-string">&quot;把文件修改添加到暂存区&quot;</span><br></code></pre></td></tr></table></figure><h2 id="添加说明"><a href="#添加说明" class="headerlink" title="添加说明"></a>添加说明</h2><figure class="highlight nginx"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><code class="hljs nginx"><span class="hljs-attribute">git</span> commit -m <span class="hljs-string">&quot;first commit&quot;</span><br></code></pre></td></tr></table></figure><h1 id="掌握仓库当前的状态"><a href="#掌握仓库当前的状态" class="headerlink" title="掌握仓库当前的状态"></a>掌握仓库当前的状态</h1><figure class="highlight maxima"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><code class="hljs maxima">git <span class="hljs-built_in">status</span><br>git <span class="hljs-built_in">diff</span>    <br></code></pre></td></tr></table></figure><h1 id="版本控制"><a href="#版本控制" class="headerlink" title="版本控制"></a>版本控制</h1><figure class="highlight pgsql"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><code class="hljs pgsql">git <span class="hljs-keyword">log</span>“显示所有版本”<br>git <span class="hljs-keyword">reset</span> <span class="hljs-comment">--hard HEAD^ “回退”</span><br>git <span class="hljs-keyword">reset</span> <span class="hljs-comment">--hard &lt;版本号&gt;</span><br>git reflog “查看所有命令与版本号”<br>git checkout <span class="hljs-comment">-- file&quot;回到和版本库一模一样的状态/回到添加到暂存区后的状态&quot;</span><br>git <span class="hljs-keyword">reset</span> HEAD &lt;file&gt;&quot;把暂存区的修改撤销掉，重新放回工作区&quot;<br></code></pre></td></tr></table></figure><p>总结<br>场景1：当你改乱了工作区某个文件的内容，想直接丢弃工作区的修改时，用命令git checkout – file。<br>场景2：当你不但改乱了工作区某个文件的内容，还添加到了暂存区时，想丢弃修改，分两步，第一步用命令git reset HEAD <file>，就回到了场景1，第二步按场景1操作。<br>场景3：已经提交了不合适的修改到版本库时，想要撤销本次提交，参考版本回退一节，不过前提是没有推送到远程库。</p>]]></content>
+    
+    
+    
+    <tags>
+      
+      <tag>笔记</tag>
+      
+    </tags>
+    
+  </entry>
+  
+  
+  
+  <entry>
     <title>10-29blog</title>
     <link href="/2024/10/29/10-29blog/"/>
     <url>/2024/10/29/10-29blog/</url>
