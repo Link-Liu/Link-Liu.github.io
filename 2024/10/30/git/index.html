@@ -19,15 +19,15 @@
   <meta name="author" content="Chenyu Liu">
   <meta name="keywords" content="">
   
-    <meta name="description" content="Git是分布式版本控制系统 初始化仓库1git init Git添加文件需要add，commit一共两步添加文件1git add readme.md &quot;把文件修改添加到暂存区&quot; 添加说明1git commit -m &quot;first commit&quot; 掌握仓库当前的状态12git statusgit diff     版本控制123456git log“显示所有版">
+    <meta name="description" content="Git是分布式版本控制系统 初始化仓库1git init  Git添加文件需要add，commit一共两步添加文件1git add readme.md # 把文件修改添加到暂存区  添加说明1git commit -m &quot;first commit&quot;  掌握仓库当前的状态12git statusgit diff      版本控制123456git log # 显示所有版本git">
 <meta property="og:type" content="article">
 <meta property="og:title" content="git">
 <meta property="og:url" content="https://link0707-awesome.github.io/2024/10/30/git/index.html">
 <meta property="og:site_name" content="Liu Chenyu&#39;s Blog">
-<meta property="og:description" content="Git是分布式版本控制系统 初始化仓库1git init Git添加文件需要add，commit一共两步添加文件1git add readme.md &quot;把文件修改添加到暂存区&quot; 添加说明1git commit -m &quot;first commit&quot; 掌握仓库当前的状态12git statusgit diff     版本控制123456git log“显示所有版">
+<meta property="og:description" content="Git是分布式版本控制系统 初始化仓库1git init  Git添加文件需要add，commit一共两步添加文件1git add readme.md # 把文件修改添加到暂存区  添加说明1git commit -m &quot;first commit&quot;  掌握仓库当前的状态12git statusgit diff      版本控制123456git log # 显示所有版本git">
 <meta property="og:locale" content="zh_CN">
 <meta property="article:published_time" content="2024-10-30T06:48:59.000Z">
-<meta property="article:modified_time" content="2024-10-30T09:29:33.230Z">
+<meta property="article:modified_time" content="2024-10-31T14:06:19.164Z">
 <meta property="article:author" content="Chenyu Liu">
 <meta property="article:tag" content="笔记">
 <meta name="twitter:card" content="summary_large_image">
@@ -225,7 +225,7 @@
       <span class="post-meta mr-2">
         <i class="iconfont icon-chart"></i>
         
-          297 字
+          519 字
         
       </span>
     
@@ -236,7 +236,7 @@
         
         
         
-          3 分钟
+          5 分钟
         
       </span>
     
@@ -279,13 +279,30 @@
               <div class="markdown-body">
                 
                 <p>Git是分布式版本控制系统</p>
-<h1 id="初始化仓库"><a href="#初始化仓库" class="headerlink" title="初始化仓库"></a>初始化仓库</h1><figure class="highlight csharp"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><code class="hljs csharp">git <span class="hljs-keyword">init</span><br></code></pre></td></tr></table></figure>
-<h1 id="Git添加文件需要add，commit一共两步"><a href="#Git添加文件需要add，commit一共两步" class="headerlink" title="Git添加文件需要add，commit一共两步"></a>Git添加文件需要add，commit一共两步</h1><h2 id="添加文件"><a href="#添加文件" class="headerlink" title="添加文件"></a>添加文件</h2><figure class="highlight routeros"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><code class="hljs routeros">git <span class="hljs-built_in">add</span> readme.md <span class="hljs-string">&quot;把文件修改添加到暂存区&quot;</span><br></code></pre></td></tr></table></figure>
-<h2 id="添加说明"><a href="#添加说明" class="headerlink" title="添加说明"></a>添加说明</h2><figure class="highlight nginx"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><code class="hljs nginx"><span class="hljs-attribute">git</span> commit -m <span class="hljs-string">&quot;first commit&quot;</span><br></code></pre></td></tr></table></figure>
-<h1 id="掌握仓库当前的状态"><a href="#掌握仓库当前的状态" class="headerlink" title="掌握仓库当前的状态"></a>掌握仓库当前的状态</h1><figure class="highlight maxima"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><code class="hljs maxima">git <span class="hljs-built_in">status</span><br>git <span class="hljs-built_in">diff</span>    <br></code></pre></td></tr></table></figure>
-<h1 id="版本控制"><a href="#版本控制" class="headerlink" title="版本控制"></a>版本控制</h1><figure class="highlight pgsql"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><code class="hljs pgsql">git <span class="hljs-keyword">log</span>“显示所有版本”<br>git <span class="hljs-keyword">reset</span> <span class="hljs-comment">--hard HEAD^ “回退”</span><br>git <span class="hljs-keyword">reset</span> <span class="hljs-comment">--hard &lt;版本号&gt;</span><br>git reflog “查看所有命令与版本号”<br>git checkout <span class="hljs-comment">-- file&quot;回到和版本库一模一样的状态/回到添加到暂存区后的状态&quot;</span><br>git <span class="hljs-keyword">reset</span> HEAD &lt;file&gt;&quot;把暂存区的修改撤销掉，重新放回工作区&quot;<br></code></pre></td></tr></table></figure>
-<p>总结<br>场景1：当你改乱了工作区某个文件的内容，想直接丢弃工作区的修改时，用命令git checkout – file。<br>场景2：当你不但改乱了工作区某个文件的内容，还添加到了暂存区时，想丢弃修改，分两步，第一步用命令git reset HEAD <file>，就回到了场景1，第二步按场景1操作。<br>场景3：已经提交了不合适的修改到版本库时，想要撤销本次提交，参考版本回退一节，不过前提是没有推送到远程库。</p>
-<h1 id="未完待续"><a href="#未完待续" class="headerlink" title="未完待续"></a>未完待续</h1>
+<h1 id="初始化仓库"><a href="#初始化仓库" class="headerlink" title="初始化仓库"></a>初始化仓库</h1><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><code class="hljs bash">git init<br></code></pre></td></tr></table></figure>
+
+<h1 id="Git添加文件需要add，commit一共两步"><a href="#Git添加文件需要add，commit一共两步" class="headerlink" title="Git添加文件需要add，commit一共两步"></a>Git添加文件需要add，commit一共两步</h1><h2 id="添加文件"><a href="#添加文件" class="headerlink" title="添加文件"></a>添加文件</h2><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><code class="hljs bash">git add readme.md <span class="hljs-comment"># 把文件修改添加到暂存区</span><br></code></pre></td></tr></table></figure>
+
+<h2 id="添加说明"><a href="#添加说明" class="headerlink" title="添加说明"></a>添加说明</h2><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><code class="hljs bash">git commit -m <span class="hljs-string">&quot;first commit&quot;</span><br></code></pre></td></tr></table></figure>
+
+<h1 id="掌握仓库当前的状态"><a href="#掌握仓库当前的状态" class="headerlink" title="掌握仓库当前的状态"></a>掌握仓库当前的状态</h1><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><code class="hljs bash">git status<br>git diff    <br></code></pre></td></tr></table></figure>
+
+<h1 id="版本控制"><a href="#版本控制" class="headerlink" title="版本控制"></a>版本控制</h1><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><code class="hljs bash">git <span class="hljs-built_in">log</span> <span class="hljs-comment"># 显示所有版本</span><br>git reset --hard HEAD^ <span class="hljs-comment"># 回退到上一个版本</span><br>git reset --hard &lt;版本号&gt; <span class="hljs-comment"># 回退到指定版本</span><br>git reflog <span class="hljs-comment"># 查看所有命令与版本号</span><br>git checkout -- file <span class="hljs-comment"># 回到和版本库一模一样的状态/回到添加到暂存区后的状态</span><br>git reset HEAD &lt;file&gt; <span class="hljs-comment"># 把暂存区的修改撤销掉，重新放回工作区</span><br></code></pre></td></tr></table></figure>
+
+<h3 id="总结"><a href="#总结" class="headerlink" title="总结"></a>总结</h3><ul>
+<li><strong>场景1</strong>：当你改乱了工作区某个文件的内容，想直接丢弃工作区的修改时，用命令 <code>git checkout -- file</code>。</li>
+<li><strong>场景2</strong>：当你不但改乱了工作区某个文件的内容，还添加到了暂存区时，想丢弃修改，分两步：<ol>
+<li>用命令 <code>git reset HEAD &lt;file&gt;</code>，回到场景1。</li>
+<li>按场景1操作。</li>
+</ol>
+</li>
+<li><strong>场景3</strong>：已经提交了不合适的修改到版本库时，想要撤销本次提交，参考版本回退一节，不过前提是没有推送到远程库。</li>
+</ul>
+<h1 id="远程仓库"><a href="#远程仓库" class="headerlink" title="远程仓库"></a>远程仓库</h1><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><code class="hljs bash">git remote add origin git@github.com:username/project.git <span class="hljs-comment"># 本地仓库运行</span><br>git push -u origin master <span class="hljs-comment"># 第一次推送</span><br>git push origin master <span class="hljs-comment"># 之后推送</span><br>git remote -v <span class="hljs-comment"># 查看远程库</span><br>git remote <span class="hljs-built_in">rm</span> &lt;name&gt; <span class="hljs-comment"># 删除远程库</span><br>git <span class="hljs-built_in">clone</span> git@github.com:username/project.git <span class="hljs-comment"># 克隆</span><br></code></pre></td></tr></table></figure>
+
+<h1 id="分支管理"><a href="#分支管理" class="headerlink" title="分支管理"></a>分支管理</h1><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br></pre></td><td class="code"><pre><code class="hljs bash">git checkout -b dev <span class="hljs-comment"># 创建并切换分支</span><br>git branch <span class="hljs-comment"># 查看分支，当前的有一个*</span><br>git checkout master <span class="hljs-comment"># 切换分支</span><br>git branch dev <span class="hljs-comment"># 创建分支</span><br>git merge &lt;branch&gt; <span class="hljs-comment"># 合并分支</span><br>git branch -d dev <span class="hljs-comment"># 删除分支，-D用于删除还没有合并过的分支</span><br>git status <span class="hljs-comment"># 查看冲突文件</span><br>git merge --no-ff -m <span class="hljs-string">&quot;merge with no-ff&quot;</span> dev <span class="hljs-comment"># 这样可以保留原分支</span><br>git stash <span class="hljs-comment"># 暂存工作区，进行其他活动</span><br>git stash list <span class="hljs-comment"># 查看缓存</span><br>git stash pop <span class="hljs-comment"># 恢复缓存，同时删除</span><br>git stash apply stash@&#123;0&#125; <span class="hljs-comment"># 恢复缓存，不删除</span><br>git cherry-pick 4c805e2 <span class="hljs-comment"># 将某个操作在当前分支实现</span><br></code></pre></td></tr></table></figure>
+
+<h1 id="标签管理"><a href="#标签管理" class="headerlink" title="标签管理"></a>标签管理</h1><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><code class="hljs bash">git tag &lt;name&gt; <span class="hljs-comment"># 在最新的commit上打标签</span><br>git tag v0.9 f52c633 <span class="hljs-comment"># 指定commit打标签</span><br>git tag <span class="hljs-comment"># 查看标签</span><br>git tag -d v0.1 <span class="hljs-comment"># 删除标签</span><br></code></pre></td></tr></table></figure>
                 
               </div>
             
