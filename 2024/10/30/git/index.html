@@ -27,7 +27,7 @@
 <meta property="og:description" content="Git是分布式版本控制系统 初始化仓库1git init  Git添加文件需要add，commit一共两步添加文件1git add readme.md # 把文件修改添加到暂存区  添加说明1git commit -m &quot;first commit&quot;  掌握仓库当前的状态12git statusgit diff      版本控制123456git log # 显示所有版本git">
 <meta property="og:locale" content="zh_CN">
 <meta property="article:published_time" content="2024-10-30T06:48:59.000Z">
-<meta property="article:modified_time" content="2024-10-31T14:06:19.164Z">
+<meta property="article:modified_time" content="2024-10-31T14:51:45.611Z">
 <meta property="article:author" content="Chenyu Liu">
 <meta property="article:tag" content="笔记">
 <meta name="twitter:card" content="summary_large_image">
@@ -397,6 +397,28 @@
   
     <article id="comments" lazyload>
       
+  <div id="valine"></div>
+  <script type="text/javascript">
+    Fluid.utils.loadComments('#valine', function() {
+      Fluid.utils.createScript('https://lib.baomitu.com/valine/1.5.1/Valine.min.js', function() {
+        var options = Object.assign(
+          {"appId":"WYLya3g24252xHpJ41bjzqre-MdYXbMMI","appKey":"Bp2D7azaEFkiCaRd8Sl2zRRF","path":"window.location.pathname","placeholder":null,"avatar":"retro","meta":["nick","mail","link"],"requiredFields":[],"pageSize":10,"lang":"zh-CN","highlight":false,"recordIP":false,"serverURLs":"https://wylya3g2.api.lncldglobal.com","emojiCDN":null,"emojiMaps":null,"enableQQ":false},
+          {
+            el: "#valine",
+            path: window.location.pathname
+          }
+        )
+        new Valine(options);
+        Fluid.utils.waitElementVisible('#valine .vcontent', () => {
+          var imgSelector = '#valine .vcontent img:not(.vemoji)';
+          Fluid.plugins.imageCaption(imgSelector);
+          Fluid.plugins.fancyBox(imgSelector);
+        })
+      });
+    });
+  </script>
+  <noscript>Please enable JavaScript to view the comments</noscript>
+
 
     </article>
   
