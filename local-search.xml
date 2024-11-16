@@ -4,6 +4,44 @@
   
   
   <entry>
+    <title>11-16blog</title>
+    <link href="/2024/11/16/11-16blog/"/>
+    <url>/2024/11/16/11-16blog/</url>
+    
+    <content type="html"><![CDATA[<h1>早上</h1><p>忘记看日程</p><h1>中文</h1><p>cs61a<br>读论文<br>论文修改<br>deepfake调查</p><h1>晚上</h1><p>deepfake研究<br>学时间复杂度<br>部署本地ai</p><h1>代办</h1><h2 id="pre的练习-11-12-11am">pre的练习(11-12 11am)</h2><h2 id="abct-PPT提交-11-12-9pm">abct PPT提交(11-12 9pm)</h2><h2 id="中文论文-12-1-5pm">中文论文 (12-1 5pm)</h2><h2 id="eie论文与视频-11-22">eie论文与视频(11-22)</h2><h2 id="abct论文提交-12-1">abct论文提交 (12-1)</h2><h2 id="mm期末反思与ai-11-24">mm期末反思与ai (11-24)</h2><ul><li>1论文(deepfake)[1/2]    [😂]</li><li>1论文(数术)[1/2]    [🔞]</li><li>1论文(P53)[1/2]   [🔞]</li><li>3h回放[1/2]   [🔞]</li><li>考试复习(2week) [1/2]     [🔞]</li><li>cs61a 3题    [😂]</li></ul>]]></content>
+    
+    
+    
+    <tags>
+      
+      <tag>日记</tag>
+      
+    </tags>
+    
+  </entry>
+  
+  
+  
+  <entry>
+    <title>research-deepfake</title>
+    <link href="/2024/11/16/research-deepfake/"/>
+    <url>/2024/11/16/research-deepfake/</url>
+    
+    <content type="html"><![CDATA[<h1>deepfake的定义</h1><ul><li>Deepfakes (a portmanteau of ‘deep learning’ and ‘fake’) are images, videos, or audio which are edited or generated using artificial intelligence tools, and which may depict real or non-existent people. [1]</li><li>use VAN and GAN[2]</li><li>techniques of machine learning and artificial intelligence[3]</li></ul><h1>商业化</h1><p>FakeApp<br><a href="http://DeepfakesWeb.com">DeepfakesWeb.com</a><br>HeyGen</p><h1>应用</h1><p>Acting<br>Art<br>Entertainment<br>Fraud and scams<br>Identity masking</p><h1>担忧</h1><p>Credibility of information<br>Defamation</p><h1>对策</h1><p>PhotoGuard</p>]]></content>
+    
+    
+    
+    <tags>
+      
+      <tag>笔记</tag>
+      
+    </tags>
+    
+  </entry>
+  
+  
+  
+  <entry>
     <title>11-13blog</title>
     <link href="/2024/11/13/11-13blog/"/>
     <url>/2024/11/13/11-13blog/</url>
