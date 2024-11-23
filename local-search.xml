@@ -4,6 +4,19 @@
   
   
   <entry>
+    <title>11-22blog</title>
+    <link href="/2024/11/22/11-22blog/"/>
+    <url>/2024/11/22/11-22blog/</url>
+    
+    <content type="html"><![CDATA[<h1>待办</h1><h2 id="abct-PPT提交">abct PPT提交</h2><h2 id="中文论文-12-1-5pm">中文论文 (12-1 5pm)</h2><h2 id="abct论文提交-12-1">abct论文提交 (12-1)</h2><h1>计划</h1><p>23完成ABCT论文<br>24复习CHC，完成论文结论<br>3h 的生物复习</p>]]></content>
+    
+    
+    
+  </entry>
+  
+  
+  
+  <entry>
     <title>11-18blog</title>
     <link href="/2024/11/18/11-18blog/"/>
     <url>/2024/11/18/11-18blog/</url>
@@ -65,7 +78,7 @@
     <link href="/2024/11/16/research-deepfake/"/>
     <url>/2024/11/16/research-deepfake/</url>
     
-    <content type="html"><![CDATA[<h1>deepfake的定义</h1><ul><li>Deepfakes (a portmanteau of ‘deep learning’ and ‘fake’) are images, videos, or audio which are edited or generated using artificial intelligence tools, and which may depict real or non-existent people. [1]</li><li>use VAN and GAN[2]</li><li>techniques of machine learning and artificial intelligence[3]</li></ul><h1>商业化</h1><p>FakeApp<br><a href="http://DeepfakesWeb.com">DeepfakesWeb.com</a><br>HeyGen</p><h1>应用</h1><p>Acting<br>Art<br>Entertainment<br>Fraud and scams<br>Identity masking</p><h1>担忧</h1><p>Credibility of information<br>Defamation</p><h1>对策</h1><p>PhotoGuard</p><h1>原理</h1><p>The technologies underlying deepfake are variational autoencoder (VAE) and generative adversarial network (GAN).<br>Variational autoencoder (VAE) is an extension of the autoencoder (AE) concept, which simplifies complex data into a low-dimensional representation and then reconstructs it to its original state. Compared to the traditional autoencoder (AE), variational autoencoder (VAE) enhances feature reconstruction capability. By modeling the probability distribution across samples, variational autoencoder (VAE) enables the generation of more varied data representations, ultimately enhancing the model’s feature extraction and representation capabilities.<br>In Deepfake technology, variational autoencoder (VAE) can be used to extract key facial features from images, such as skin tone, eyebrow position, eye size, and so on. These features are crucial for generating realistic fake facial images, which makes identity swap possible.<br>Generative adversarial network (GAN) is crucial for new face generation. It contains a generator and a discriminator, using the strategy of the two against each other to train the sample. The job of generator is to create fake samples. The discriminator aims to determine whether samples are created by generator or from the real datasets.  Using this strategy, after several epochs of training, the Generative adversarial network (GAN) model can generate images that normal humans could not judge to be true or false.<br>For face swapping, generative adversarial network (GAN) can produce fake images that closely resemble real faces. For expression transfer, it generates realistic facial expression changes, which enables the imitation of real human expressions.</p>]]></content>
+    <content type="html"><![CDATA[<h1>deepfake的定义</h1><ul><li>Deepfakes (a portmanteau of ‘deep learning’ and ‘fake’) are images, videos, or audio which are edited or generated using artificial intelligence tools, and which may depict real or non-existent people. [1]</li><li>use VAN and GAN[2]</li><li>techniques of machine learning and artificial intelligence[3]</li></ul><h1>商业化</h1><p>FakeApp<br><a href="http://DeepfakesWeb.com">DeepfakesWeb.com</a><br>HeyGen</p><h1>应用</h1><p>Acting<br>Art<br>Entertainment<br>Fraud and scams<br>Identity masking</p><h1>担忧</h1><p>Credibility of information<br>Defamation</p><h1>对策</h1><p>PhotoGuard</p>]]></content>
     
     
     
